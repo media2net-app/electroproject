@@ -1,0 +1,46 @@
+.leads-main{ max-width:1420px; margin:0 auto; width:100%; padding:40px 32px; }
+.leads-titlebar{ display:flex; gap:14px; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.leads-search{ min-width:300px; border:1px solid #2a5361; background:#0f1f28; color:#eaffff; border-radius:8px; padding:10px 12px; }
+.leads-table-wrap{ background:rgba(21,36,42,.99); border-radius:12px; box-shadow:0 2px 18px #0f181f22; padding:18px; overflow:auto; }
+.leads-table{ width:100%; border-collapse: collapse; }
+.leads-table thead th{ background:#0f2b35; color:#c3efff; font-weight:700; padding:12px 10px; text-align:left; }
+.leads-table tbody td{ border-bottom:1px solid #203a48; padding:10px; }
+.lead-badge{ padding:3px 10px; border-radius:999px; font-weight:600; font-size:.88em; }
+.lead-badge.nieuw{ background:#2a3550; color:#dfe7ff; border:1px solid #6a7dff; }
+.lead-badge.opvolgen{ background:#083b3b; color:#a9ffef; border:1px solid #06c6b6; }
+.lead-badge.gekwalificeerd{ background:#0e3b33; color:#9ff6cc; border:1px solid #0c5; }
+.lead-badge.afgewezen{ background:#3b0e18; color:#ffc9d6; border:1px solid #c25; }
+.lead-badge.klant{ background:#123c17; color:#b9ffbf; border:1px solid #2dd36f; }
+
+.lead-status-select{ background:#0e2230; color:#e6fcff; border:1px solid #2a5566; border-radius:8px; padding:6px 8px; }
+.lead-actions{ display:flex; gap:8px; justify-content:flex-end; }
+.lead-btn{ padding:6px 10px; border-radius:8px; background:#0f2b35; color:#daf8ff; border:1px solid #29505d; cursor:pointer; font-size:.92em; }
+.lead-btn:hover{ background:#154457; }
+.lead-btn.convert{ background:#0f3330; border-color:#0aa; }
+.lead-btn.delete{ background:#3b0e18; border-color:#c25; color:#ffd5de; }
+.lead-btn.delete:hover{ background:#5c1323; }
+
+/* Modal */
+.modal-backdrop{ position:fixed; inset:0; background:rgba(0,0,0,0.55); display:flex; align-items:center; justify-content:center; z-index: 1000; }
+.modal-card{ background:#0f2230; border:1px solid #1c3a47; border-radius:12px; padding:16px 18px; width: min(900px, 95vw); box-shadow:0 10px 40px rgba(0,0,0,.4); color:#e6fcff; }
+.modal-title{ font-weight:700; margin:0 0 8px 0; }
+
+/* Flow */
+.lead-flow{ display:flex; align-items:center; gap:10px; padding:8px 6px 14px 6px; }
+.flow-step{ position:relative; display:flex; align-items:center; gap:8px; cursor:pointer; user-select:none; }
+.flow-step .dot{ width:14px; height:14px; border-radius:50%; background:#28424f; border:2px solid #406574; }
+.flow-step .bar{ width:60px; height:2px; background:#2a4c59; margin-left:6px; margin-right:6px; }
+.flow-step span{ color:#a9c9d6; font-size:.92em; }
+.flow-step.active .dot{ background:#02c5b0; border-color:#53e0d3; box-shadow:0 0 0 3px rgba(2,197,176,.18); }
+.flow-step.done .dot{ background:#11957d; border-color:#1fd1b8; }
+.flow-step.todo .dot{ background:#28424f; }
+
+.modal-content{ display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+.lead-detail-grid{ display:grid; grid-template-columns: 1fr 1fr; gap:8px; background:#0c1b24; padding:10px; border-radius:8px; }
+.lead-note{ display:flex; flex-direction:column; gap:6px; }
+.lead-note textarea{ min-height:90px; border-radius:8px; border:1px solid #254b5a; background:#0c1b24; color:#e6fcff; padding:8px; }
+.lead-note input[type="date"]{ border-radius:8px; border:1px solid #254b5a; background:#0c1b24; color:#e6fcff; padding:6px 8px; }
+.modal-actions{ display:flex; gap:8px; justify-content:flex-end; margin-top:6px; }
+.modal-btn{ padding:7px 11px; border-radius:8px; border:1px solid #2a5566; background:#113142; color:#e6fcff; cursor:pointer; }
+.lead-activity h3{ margin:8px 0 6px 0; }
+.lead-activity ul{ margin:0; padding-left:16px; max-height:220px; overflow:auto; }

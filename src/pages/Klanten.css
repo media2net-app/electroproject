@@ -1,0 +1,12 @@
+.klanten-main{ max-width:1420px; margin:0 auto; width:100%; padding:40px 32px; }
+.klanten-titlebar{ display:flex; gap:14px; align-items:center; justify-content:space-between; margin-bottom:14px; }
+.klanten-search{ min-width:300px; border:1px solid #2a5361; background:#0f1f28; color:#eaffff; border-radius:8px; padding:10px 12px; }
+.klanten-table-wrap{ background:rgba(21,36,42,.99); border-radius:12px; box-shadow:0 2px 18px #0f181f22; padding:18px; overflow:auto; }
+.klanten-table{ width:100%; border-collapse: collapse; }
+.klanten-table thead th{ background:#0f2b35; color:#c3efff; font-weight:700; padding:12px 10px; text-align:left; }
+.klanten-table tbody td{ border-bottom:1px solid #203a48; padding:10px; }
+.klant-badge{ padding:3px 10px; border-radius:999px; font-weight:600; font-size:.88em; }
+.klant-badge.active{ background:#0e3b33; color:#9ff6cc; border:1px solid #0c5; }
+.klant-badge.inactive{ background:#3b0e18; color:#ffc9d6; border:1px solid #c25; }
+
+

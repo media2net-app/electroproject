@@ -1,0 +1,8 @@
+.sys-wrap{ max-width:880px; margin:0 auto; padding:40px 32px; color:#e6fcff; }
+.sys-intro{ color:#9ec9d6; margin:0 0 14px 0; }
+.sys-card{ background:rgba(21,36,42,.95); border:1px solid #1e3744; border-radius:14px; padding:16px 18px; margin:12px 0; }
+.sys-card h2{ margin:0 0 8px 0; font-weight:700; }
+.sys-card ul{ margin:0; padding-left:18px; }
+.sys-card li{ margin:6px 0; }
+
+
