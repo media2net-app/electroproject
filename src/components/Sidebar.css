@@ -1,0 +1,14 @@
+.sidebar { display: flex; flex-direction: column; align-items: center; height: 100vh; min-height: 100dvh; background: var(--brand-primary); width: 218px; box-shadow: 4px 0 16px 0 #10192910; }
+.sidebar-logo { width: calc(100% - 22px); max-width: none; height: auto; margin: 8px 6px 18px 6px; padding: 5px; }
+.sidebar nav ul { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 4px; width: 100%; box-sizing: border-box; }
+.sidebar nav li { width: 100%; }
+.sidebar nav a { display: block; width: calc(100% - 24px); box-sizing: border-box; color: #fff; text-decoration: none; font-size: 1.03em; line-height: 1; padding: 12px 14px; border-radius: 8px; margin: 2px 12px; transition: background 0.15s, color 0.15s; }
+.sidebar nav a:hover, .sidebar nav a:focus { background: var(--brand-accent); color: var(--brand-primary-700); }
+.sidebar nav .active { background: var(--brand-accent); color: var(--brand-primary-700); font-weight: 600; }
+.sidebar-favicon { width: 40px; height: auto; opacity: .95; margin: 6px 0 4px 0; }
+.sidebar-bottom { margin-top: auto; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; }
+.sidebar-secondary { display:block; width: calc(100% - 24px); padding: 9px 0; margin: 0 12px; background: #0e3642; color: #d8faff; border: 1px solid #2a5b68; border-radius: 7px; font-size: .98em; cursor: pointer; transition: background .15s, color .15s, border-color .15s; }
+.sidebar-secondary:hover { background: #145263; border-color: #3a92a7; }
+.sidebar-logout { display:block; width: calc(100% - 24px); margin: 0 12px 18px 12px; padding: 10px 0; background: none; border: none; color: #fff; border-radius: 7px; font-weight: 500; font-size: 1.02em; letter-spacing:0.02em; cursor:pointer; transition: background .16s, color .13s; text-align:center; }
+.sidebar-logout:hover { background: var(--brand-accent); color: var(--brand-primary-700); }
+@media (max-width: 840px){ .sidebar-logout { font-size:.97em; padding: 10px 0; } }
